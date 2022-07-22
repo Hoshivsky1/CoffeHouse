@@ -3,7 +3,7 @@
 CoffeHouse ReactApp
 MultiPageWeb
 
-## Available Scripts
+## Run and Start Porject
 
 In the project directory, you can run:
 
