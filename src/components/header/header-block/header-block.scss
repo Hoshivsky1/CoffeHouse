@@ -1,0 +1,62 @@
+.header{
+    padding-top: 15px;
+    &__block{
+        margin-top: 85px;
+        text-align: center;
+    }
+    &__title{
+        font-size: 40px;
+        width: 700;
+        margin-bottom: 20px;
+        text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    &__subtitle{
+        font-size: 24px;
+        width: 700;
+        margin-top: 25px;
+        margin-bottom: 15px;
+        line-height: 50px;
+        &-none{
+            display: none;
+        }
+    }
+    &__button{
+        color: white;
+        border: 1px solid white;
+        border-radius: 5px;
+        padding: 5px 42px;
+        background:none;
+        transition: 0.3s all;
+        &-none{
+            display: none;
+        }
+        &:hover{
+            background:rgba(255, 255, 255, 0.331);
+        }
+    }
+    .coffeline{
+        margin: 0 auto;
+        width: 200px;
+        height: 35px;
+        background: url('\assets/icons/coffeline.svg') no-repeat top center / cover;
+    }
+}
+
+.header__shop{
+    &-block{
+        margin-top: 25px;
+        text-align: center; 
+    }
+    
+}
+
+.none-coffeline{
+    display: none;
+}
+
+.header__coffe{
+    &-block{
+        margin-top: 25px;
+        text-align: center; 
+    }
+}

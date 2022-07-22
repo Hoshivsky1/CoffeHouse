@@ -1,0 +1,28 @@
+.item{
+    cursor: pointer;
+    color:black;
+    width: 220px;
+    height: 240px;
+    background: rgba(255, 255, 255, 0.732);
+    border-radius: 8px;
+    padding: 20px;
+    transition: all 0.3s;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.383);
+    
+    &__subtitle{
+        margin-top: 10px;
+    }
+    &__price{
+        font-weight: 700;
+        margin-top: 10px;
+    }
+    &:hover{
+        background: rgb(255, 255, 255);
+        transform: scale(1.1);
+        box-shadow: 2px 2px 4px black;    
+    }
+}
+img{
+    width: 180px;
+    height: 150px;
+}

@@ -1,0 +1,24 @@
+.main{
+    min-height: 495px;
+    background: url('\assets/img/header/bgheader.jpg') no-repeat top center / cover;
+    &__block{
+        margin: 0 auto;
+        max-width: 1100px;
+        display: flex;
+        padding-top:40px ;
+        justify-content: center;
+        gap: 70px;
+        flex-wrap: wrap;
+        padding: 40px 20px 20px 20px;
+    }
+    &__title{
+        font-size: 24px;
+        line-height: 35px;
+        text-align: center;
+        color: black;
+        padding-top:80px;
+    }
+    &__none{
+        display: none;
+    }
+}
